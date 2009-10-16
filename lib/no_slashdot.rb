@@ -21,6 +21,6 @@ class NoSlashdot
   end
 
   def kick_it
-    [301, {'Location' => @options[:redirect]}, 'Fail browser is fail']
+    [301, {'Location' => @options[:redirect]}, 'Slashdotting is fail']
   end
 end
