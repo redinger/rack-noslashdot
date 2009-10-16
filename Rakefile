@@ -5,12 +5,11 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "rack-noslashdot"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{TODO: Redirect slashdot referers}
+    gem.description = %Q{TODO: Because sometimes you just want to be left alone}
     gem.email = "redinger@gmail.com"
     gem.homepage = "http://github.com/redinger/rack-noslashdot"
     gem.authors = ["Christopher Redinger"]
-    gem.add_development_dependency "thoughtbot-shoulda"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 rescue LoadError
